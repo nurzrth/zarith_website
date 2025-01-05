@@ -1,0 +1,272 @@
+<html>
+    <head>
+        <title>Family</title>
+    </head>
+
+    <style>
+        h3, p {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        .family-row {
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        .family-row img {
+            width: 150px; 
+            height: 150px; 
+            margin-bottom: 0;
+            border-radius: 20px;
+        }
+
+        .family-gallery {
+            text-align: center;
+            position: relative;
+            height: 510px; 
+            overflow: hidden;
+            background: #fff;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .gallery-row {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 5px;
+            position: absolute;
+            width: 200%;
+            margin: 10px;
+        }
+
+        .gallery-row img {
+            width: 220px;
+            height: 150px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+
+        .row1 {
+        top: 0;
+        animation: slide-left 20s linear infinite;
+        }
+
+        .row2 {
+        top: 160px;
+        animation: slide-left 20s linear infinite;
+        }
+
+        .row3 {
+        top: 320px; 
+        animation: slide-left 20s linear infinite;
+        }
+
+        @keyframes slide-left {
+        0% {
+            transform: translateX(0%);
+        }
+        100% {
+            transform: translateX(-50%);
+        }
+        }
+    </style>
+
+    <link rel="stylesheet" href="style.css">
+
+    <body>
+        <div class="button">
+            <button onclick="document.location='index.html'">Home</button>
+            <button onclick="document.location='biodata.html'">Biodata</button>
+            <button onclick="document.location='school.html'">School</button>
+            <button onclick="document.location='family.html'" style="background-color: rgb(0, 0, 0);">Family</button>
+            <button onclick="document.location='hobby.html'">Hobby</button>
+            <button onclick="document.location='internship.html'">Internship</button>
+        </div>
+
+        <header>
+            <div class="header-images">
+                <img src="images/png/images.png" alt="Left Image">
+                <h1>Family General Information and Gallery</h1>
+                <img src="images/png/images.png" alt="Right Image">
+            </div> 
+        </header>
+    
+        <main>
+            <div class="white-box">
+                <h2 style="text-align: center;">Family Members</h2>
+
+                <div class="family-row">
+                    <div style="text-align: center; border: 2px solid rgb(236, 187, 182); background-color: rgb(255, 230, 230);">
+                        <h4 style="font-family: Verdana, Geneva, Tahoma, sans-serif;">Father</h3>
+                        <img src="images/png/family/ofam1.png" alt="Member 1 Photo">
+                        <p style="text-align: center; padding: 10px;"><b>Mohd Zahari Bin Haji Sabeh</b></p>
+                        <p style="text-align: center;">
+                            إِنَّا لِلَّهِ وَإِنَّآ إِلَيْهِ رَٰجِعُونَ<br>Deceased<br>Born on 17th August 1958
+                        </p>
+                    </div>
+                    <div style="text-align: center; border: 2px solid rgb(236, 187, 182); background-color: rgb(255, 230, 230);">
+                        <h4 style="font-family: Verdana, Geneva, Tahoma, sans-serif;">Mother</h3>
+                        <img src="images/png/family/ofam2.png" alt="Member 2 Photo">
+                        <p style="text-align: center; padding: 10px;"><b>Raja Mardiah Binti Raja Ahmad</b></p>
+                        <p style="text-align: center;">
+                            57 years old<br>Born on 22th June 1967<br>Business Owner of <i>RMZ Fesyen</i>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="family-row">
+                    <div style="text-align: center; border: 2px solid rgb(236, 187, 182); background-color: rgb(255, 230, 230);">
+                        <h4 style="font-family: Verdana, Geneva, Tahoma, sans-serif;">Older Sister</h3>
+                        <img src="images/png/family/ofam3.png" alt="Member 1 Photo">
+                        <p style="text-align: center; padding: 10px;"><b>Puteri Fatin Riswin Binti Mohd Zahari</b></p>
+                        <p style="text-align: center;">
+                            36 years old<br>Born on 28th October 1988<br>Administrative Officer
+                        </p>
+                    </div>
+                    <div style="text-align: center; border: 2px solid rgb(236, 187, 182); background-color: rgb(255, 230, 230);">
+                        <h4 style="font-family: Verdana, Geneva, Tahoma, sans-serif;">Older Brother</h3>
+                        <img src="images/png/family/ofam4.png" alt="Member 2 Photo">
+                        <p style="text-align: center; padding: 10px;"><b>Megat Mohd Iskandar Shah Bin Mohd Zahari</b></p>
+                        <p style="text-align: center;">
+                            30 years old<br>Born on 18th January 1994<br>Personal Trainer
+                        </p>
+                    </div>
+                    <div style="text-align: center; border: 2px solid rgb(236, 187, 182); background-color: rgb(255, 230, 230);">
+                        <h4 style="font-family: Verdana, Geneva, Tahoma, sans-serif;">Youngest (Me)</h3>
+                        <img src="images/png/family/ofam5.png" alt="Member 2 Photo">
+                        <p style="text-align: center; padding: 10px;"><b>Puteri Nur Zarith Fitri Binti Mohd Zahari</b></p>
+                        <p style="text-align: center;">
+                            20 years old<br>Born on 14th November 2004<br>University Student
+                        </p>
+                    </div>
+                </div>
+
+                <br><br><br><br>
+                
+                <h2 style="text-align: center;">Precious Gallery of Family and Friends</h2>
+                <p style="text-align: center; font-size: small; color: rgb(165, 8, 39);">↓ ↓ ↓ ↓ ↓ Click on these images below to zoom in ↓ ↓ ↓ ↓ ↓</p>
+                <div class="family-gallery">
+                    <div class="gallery-row row1">
+                        <a href="images/png/family/fam1.png">
+                        <img src="images/png/family/fam1.png" alt="Gallery Image 1"></a>
+                        <a href="images/png/family/fam2.png">
+                        <img src="images/png/family/fam2.png" alt="Gallery Image 2"></a>
+                        <a href="images/png/family/fam3.png">
+                        <img src="images/png/family/fam3.png" alt="Gallery Image 3"></a>
+                        <a href="images/png/family/fam4.png">
+                        <img src="images/png/family/fam4.png" alt="Gallery Image 4"></a>
+                        <a href="images/png/family/fam5.png">
+                        <img src="images/png/family/fam5.png" alt="Gallery Image 5"></a>
+                        <a href="images/png/family/fam6.png">
+                        <img src="images/png/family/fam6.png" alt="Gallery Image 6"></a>
+                        <a href="images/png/family/fam7.png">
+                        <img src="images/png/family/fam7.png" alt="Gallery Image 7"></a>
+                        <a href="images/png/family/fam8.png">
+                        <img src="images/png/family/fam8.png" alt="Gallery Image 8"></a>
+                        <a href="images/png/family/fam9.png">
+                        <img src="images/png/family/fam9.png" alt="Gallery Image 9"></a>
+                        <a href="images/png/family/fam10.png">
+                        <img src="images/png/family/fam10.png" alt="Gallery Image 10"></a>
+                    </div>
+                
+                    <div class="gallery-row row2">
+                        <a href="images/png/family/fam11.png">
+                        <img src="images/png/family/fam11.png" alt="Gallery Image 11"></a>
+                        <a href="images/png/family/fam12.png">
+                        <img src="images/png/family/fam12.png" alt="Gallery Image 12"></a>
+                        <a href="images/png/family/fam13.png">
+                        <img src="images/png/family/fam13.png" alt="Gallery Image 13"></a>
+                        <a href="images/png/family/fam14.png">
+                        <img src="images/png/family/fam14.png" alt="Gallery Image 14"></a>
+                        <a href="images/png/family/fam15.png">
+                        <img src="images/png/family/fam15.png" alt="Gallery Image 15"></a>
+                        <a href="images/png/family/fam16.png">
+                        <img src="images/png/family/fam16.png" alt="Gallery Image 16"></a>
+                        <a href="images/png/family/fam17.png">
+                        <img src="images/png/family/fam17.png" alt="Gallery Image 17"></a>
+                        <a href="images/png/family/fam18.png">
+                        <img src="images/png/family/fam18.png" alt="Gallery Image 18"></a>
+                        <a href="images/png/family/fam19.png">
+                        <img src="images/png/family/fam19.png" alt="Gallery Image 19"></a>
+                        <a href="images/png/family/fam20.png">
+                        <img src="images/png/family/fam20.png" alt="Gallery Image 20"></a>
+                    </div>
+                
+                    <div class="gallery-row row3">
+                        <a href="images/png/family/fam21.png">
+                        <img src="images/png/family/fam21.png" alt="Gallery Image 21"></a>
+                        <a href="images/png/family/fam22.png">
+                        <img src="images/png/family/fam22.png" alt="Gallery Image 22"></a>
+                        <a href="images/png/family/fam23.png">
+                        <img src="images/png/family/fam23.png" alt="Gallery Image 23"></a>
+                        <a href="images/png/family/fam24.png">
+                        <img src="images/png/family/fam24.png" alt="Gallery Image 24"></a>
+                        <a href="images/png/family/fam25.png">
+                        <img src="images/png/family/fam25.png" alt="Gallery Image 25"></a>
+                        <a href="images/png/family/fam26.png">
+                        <img src="images/png/family/fam26.png" alt="Gallery Image 26"></a>
+                        <a href="images/png/family/fam27.png">
+                        <img src="images/png/family/fam27.png" alt="Gallery Image 27"></a>
+                        <a href="images/png/family/fam28.png">
+                        <img src="images/png/family/fam28.png" alt="Gallery Image 28"></a>
+                        <a href="images/png/family/fam29.png">
+                        <img src="images/png/family/fam29.png" alt="Gallery Image 29"></a>
+                        <a href="images/png/family/fam30.png">
+                        <img src="images/png/family/fam30.png" alt="Gallery Image 30"></a>
+                    </div>
+                        
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <p style="text-align: center; color: #d3d3d3;">
+                <strong><a href="#top" style="color: #ffffff;">Back To Top</a></strong><br>
+                Current Time: <span id="current-time" style="color: #ffffff;"></span><br>
+                Last Updated: <span id="last-updated-time" style="color: #ffffff;"></span>
+                <p style="text-align: center; color: #ffffff; font-size: small;">© 2024 Puteri Nur Zarith Fitri, All Rights Reserved.</p>
+            </p>
+        </footer>
+        <script>
+            function updateTime() {
+                const currentTime = new Date();
+                let hours = currentTime.getHours();
+                const minutes = currentTime.getMinutes().toString().padStart(2, '0');
+                const seconds = currentTime.getSeconds().toString().padStart(2, '0');
+                let ampm = 'AM';
+        
+                if (hours >= 12) {
+                    ampm = 'PM';
+                    if (hours > 12) hours -= 12;
+                } else if (hours === 0) {
+                    hours = 12; 
+                }
+        
+                hours = hours.toString().padStart(2, '0');
+                const timeString = `${hours}:${minutes}:${seconds} ${ampm}`;
+                document.getElementById("current-time").textContent = timeString;
+            }
+        
+            function formatLastUpdated() {
+                const lastUpdated = new Date(document.lastModified);
+                let hours = lastUpdated.getHours();
+                const minutes = lastUpdated.getMinutes().toString().padStart(2, '0');
+                let ampm = 'AM';
+        
+                if (hours >= 12) {
+                    ampm = 'PM';
+                    if (hours > 12) hours -= 12; 
+                } else if (hours === 0) {
+                    hours = 12; 
+                }
+        
+                hours = hours.toString().padStart(2, '0');
+                const formattedDate = lastUpdated.toLocaleDateString();
+                const timeString = `${formattedDate} ${hours}:${minutes} ${ampm}`;
+                document.getElementById("last-updated-time").textContent = timeString;
+            }
+        
+            setInterval(updateTime, 1000); 
+            updateTime(); 
+            formatLastUpdated(); 
+        </script>
+    </body>
+</html>
